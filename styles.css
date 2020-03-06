@@ -6,6 +6,12 @@ width: 2000px;
 div {
     display: inline;
 }
+
+.logo {
+    position: fixed;
+    left: 1400px;
+    top: 50px;
+}
 .blue {
     position: fixed;
     background-color: #2A8FB0;
@@ -45,15 +51,15 @@ div {
     z-index: 3;
 }
 
-.white_circle{
-    position: fixed;
-    top: 205px;
-    left: 393px;
+.white_circle {
+    position: absolute;
+    top: 0px;
+    left: 184px;
     background-color: #ffffff;
     width: 150px;
     height: 150px;
     border-radius: 75px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .actual_logo {
@@ -237,8 +243,8 @@ div {
     width: 150px;
     height: 240px;
     background-color: #B3B3B3;
-    z-index: 2;
-    clip-path: polygon(0 0, 25% 0, 62.5% 65%, 37.5% 68%);
+    z-index: 10;
+    clip-path: polygon(0 0, 25% 0, 62.5% 65%, 39.5% 68%);
     
 }
 
@@ -256,19 +262,30 @@ div {
     width: 150px;
     height: 240px;
     background-color: #B3B3B3;
-    z-index: 2;
-    clip-path: polygon(10% 75%, 40% 75%, 40% 88%, 10% 88%);
+    z-index: 5;
+    clip-path: polygon(3% 72%, 40% 75%, 40% 87.5%, 0% 85%);
 }
 
 .y-gray4 {
     position: absolute;
-    top: 160px;
-    left: 36px;
+    top: 138px;
+    left: -5px;
     background-color: #B3B3B3;
-    width: 50px;
+    width: 91px;
+    height: 70px;
+    border-radius: 40px/20px;
+    z-index: 2;
+    clip-path: polygon(100% 0, 100% 120%, 15% 120%, 20% 50%);
+}
+.y-white1 {
+    position: absolute;
+    top: 130px;
+    left: -2px;
+    background-color: #ffffff;
+    width: 60px;
     height: 50px;
     border-radius: 25px;
-    z-index: 2;
+    z-index: 5;
 }
 
 
@@ -525,8 +542,8 @@ div {
     width: 150px;
     height: 240px;
     background-color: #B3B3B3;
-    z-index: 2;
-    clip-path: polygon(0 0, 25% 0, 62.5% 65%, 37.5% 68%);
+    z-index: 10;
+    clip-path: polygon(0 0, 25% 0, 62.5% 65%, 39.5% 68%);
     
 }
 
@@ -544,19 +561,30 @@ div {
     width: 150px;
     height: 240px;
     background-color: #B3B3B3;
-    z-index: 2;
-    clip-path: polygon(10% 75%, 40% 75%, 40% 88%, 10% 88%);
+    z-index: 5;
+    clip-path: polygon(3% 72%, 40% 75%, 40% 87.5%, 0% 85%);
 }
 
 .y2-gray4 {
     position: absolute;
-    top: 160px;
-    left: 36px;
+    top: 138px;
+    left: -5px;
     background-color: #B3B3B3;
-    width: 50px;
+    width: 91px;
+    height: 70px;
+    border-radius: 40px/20px;
+    z-index: 2;
+    clip-path: polygon(100% 0, 100% 120%, 15% 120%, 20% 50%);
+}
+.y2-white1 {
+    position: absolute;
+    top: 130px;
+    left: -2px;
+    background-color: #ffffff;
+    width: 60px;
     height: 50px;
     border-radius: 25px;
-    z-index: 2;
+    z-index: 5;
 }
 
 .c {
